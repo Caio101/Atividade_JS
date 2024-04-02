@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trocar Valores de Variaveis</title>
+</head>
+<body>
+    <script>
+        //solicitar ao usúario que insira os Valores de A e B
+        let A=parseFloat(prompt("digite o valor de A;"));
+        let B=parseFloat(prompt("digite o valor de B"));
+ 
+        //trocar os Valores dos Variáveis A e B usando uma Variável Temporária
+        let temp= A;
+        A=B;
+        B=temp;
+ 
+        //Exibir os Valores Trocados
+        console.log('Valores Trocados-a:$A,B:$B');  
+    </script>
+   
+</body>
+</html>
